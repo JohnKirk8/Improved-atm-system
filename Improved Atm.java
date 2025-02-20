@@ -18,7 +18,7 @@ public class Main
         if(choice >= 4) {System.out.println("Please enter a number between 1-3");Menu();}
         if(choice == 1){Reg();}
         if(choice == 2){Login();}
-        if(choice == 3){Exit();}}
+        if(choice == 3){System.out.println("Goodbye!");System.exit(0);}}
     public static void Reg(){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a new Account number");
@@ -71,5 +71,4 @@ public class Main
         Atm();}
         if (sel == 4) {System.out.println("Thank you");Menu();}
         }
-    public static void Exit(){System.out.println("Goodbye!");}
     }
